@@ -1,8 +1,8 @@
 provider helm {}
 
-resource "helm_release" "promethues_grafana" {
+resource "helm_release" "prometheus_grafana" {
 
-  name       = "prometheus_grafana"
+  name       = "prometheues_grafana"
   repository = "stable"
   chart      = "prometheus-operator"
   timeout    = 1200
